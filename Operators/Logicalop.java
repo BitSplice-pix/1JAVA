@@ -5,9 +5,9 @@ public class Logicalop{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("WELCOME TO TICKET DISCOUNT COUNTER");
-        System.out.println("Please Enter your Age: ");
+        System.out.print("Please Enter your Age: ");
         int age = input.nextInt();
-        System.out.println("Are You A Female? (True/False) ");
+        System.out.print("Are You A Female? (True/False) ");
         boolean isFemale = input.nextBoolean();
 
         if(age < 5){
